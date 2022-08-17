@@ -1,0 +1,50 @@
+.header {
+  background-color: rgb(174, 195, 189);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #19191b;
+  text-decoration: none;
+}
+
+.header__body {
+  height: 60px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__menu {
+  display: flex;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__menu {
+    margin-left: 50px;
+  }
+}
+
+.header__menu > a {
+  margin-left: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.header__menu > a:hover {
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .header__menu > a {
+    font-size: 16px;
+    margin-left: 50px;
+  }
+}

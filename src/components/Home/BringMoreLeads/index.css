@@ -1,0 +1,228 @@
+.bring_more_leads {
+  background-image: url("../../../images/bringMoreLeadsSM.png");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_more_leads {
+    background-image: url("../../../images/bringMoreLeadsLG.png");
+  }
+}
+
+.bring_more_leads__body {
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_more_leads__body {
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+  }
+}
+
+.bring_more_leads__info {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_more_leads__info {
+    width: 60%;
+    max-width: 500px;
+    margin-top: 100px;
+  }
+}
+
+.bring_more_leads__info > h1 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -1.69px;
+  color: #19191b;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_more_leads__info > h1 {
+    font-size: 3.375rem;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+.bring_more_leads__info > p {
+  font-size: 15px;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: #696871;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_more_leads__info > p {
+    margin-top: 20px;
+    font-size: 1.181rem;
+    line-height: 1.86;
+    letter-spacing: -0.59px;
+    text-align: left;
+  }
+}
+
+.input_section {
+  margin-top: 50px;
+  height: 50px;
+  padding: 0.313rem 0.313rem 0.313rem 1.125rem;
+  border-radius: 9px;
+  border: solid 0.9px #eae9f2;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+@media scree and (min-width: 768px) {
+  .input_section {
+    width: 30.313rem;
+    height: 4rem;
+    padding: 0.313rem 0.313rem 0.313rem 1.125rem;
+  }
+}
+
+.input_section > img {
+  width: 1.125rem;
+  height: 0.938rem;
+  margin-right: 5px;
+}
+
+.input_section > input {
+  height: 40px;
+  width: 60%;
+  margin-right: 10px;
+  border: 0;
+
+  outline-color: orange;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 5px;
+  background-color: #fff;
+}
+
+.input_section > button {
+  color: white;
+  height: 45px;
+  width: 120px;
+  margin-left: auto;
+
+  border-radius: 4.5px;
+  border: solid 0.9px #c31a12;
+  background-color: #f04037;
+}
+
+@media screen and (min-width: 768px) {
+  .input_section > button {
+    width: 11.25rem;
+    height: 3.375rem;
+
+    border-radius: 4.5px;
+    border: solid 0.9px #c31a12;
+    background-color: #f04037;
+  }
+}
+
+.percentage-section {
+  position: absolute;
+  bottom: -13%;
+  right: 0;
+}
+@media screen and (min-width: 768px) {
+  .percentage-section {
+    position: absolute;
+    bottom: -30%;
+    right: 0%;
+  }
+}
+
+.percentage_body {
+  height: 130px;
+  width: 130px;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 47px 49px 0 rgba(65, 62, 101, 0.3);
+  background-color: #5454d4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .percentage_body {
+    height: 150px;
+    width: 150px;
+    padding: 8px;
+  }
+}
+
+.percentage_body > div {
+  background-color: #7070f4;
+  display: grid;
+  place-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.percentage_body > div > img {
+  height: 23px;
+  width: 17px;
+}
+
+.percentage_body > h1 {
+  font-size: 40px;
+  line-height: 1.29;
+  letter-spacing: -1.97px;
+  text-align: center;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .percentage_body > h1 {
+    font-size: 3.938rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -1.97px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+.percentage_body > p {
+  letter-spacing: -0.59px;
+  text-align: center;
+
+  color: #fff;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .percentage_body > p {
+    font-size: 15px;
+  }
+}
+
+.image-component-style {
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-component-style {
+    margin-top: -100px;
+  }
+}

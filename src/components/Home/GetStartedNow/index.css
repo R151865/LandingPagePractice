@@ -1,0 +1,142 @@
+.get_started_now {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #413e65;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.get_started_now__body {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now__body {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.get_started_imageComponent {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_imageComponent {
+    position: absolute;
+    top: 30%;
+    left: 24%;
+  }
+}
+
+.get_started_now__body > img {
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now__body > img {
+    width: 40%;
+    max-width: 350px;
+  }
+}
+
+.get_started_now__info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now__info {
+    width: 40%;
+    /* max-width: 400px; */
+  }
+}
+
+.get_started_now__info > h1 {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now__info > h1 {
+    font-size: 3.375rem;
+  }
+}
+
+.get_started_now__info > p {
+  font-size: 15px;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now__info > p {
+    font-size: 1.181rem;
+  }
+}
+
+.get_started_now__info > button {
+  width: 70%;
+  height: 50px;
+  border-radius: 9px;
+  border: solid 0.9px #c31a12;
+  background-color: #f04037;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now__info > button {
+    width: 100%;
+  }
+}
+
+.get_started_now__inputSection {
+  height: 50px;
+  width: 70%;
+  border-radius: 9px;
+  border: solid 0.9px #eae9f2;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .get_started_now__inputSection {
+    width: 100%;
+  }
+}
+
+.get_started_now__inputSection > input {
+  height: 35px;
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 100px;
+  border: 0;
+  outline: none;
+}
+
+.get_started_now__icon {
+  margin-left: 10px;
+}

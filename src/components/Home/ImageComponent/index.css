@@ -1,0 +1,11 @@
+.oval-image {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .oval-image {
+    width: 250px;
+    height: 250px;
+  }
+}

@@ -1,0 +1,88 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer__body {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.omega_section {
+  width: 35%;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .omega_section {
+    width: 20%;
+  }
+}
+
+.omega_logo {
+  font-size: 1.35rem;
+  font-weight: 900;
+  letter-spacing: -0.68px;
+  color: #19191b;
+  margin-bottom: 10px;
+}
+
+.omega_description {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: #696871;
+}
+
+.social_media {
+  margin-top: 10px;
+  display: flex;
+}
+
+.social_media > div {
+  color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  padding: 10px;
+
+  background-color: #696871;
+
+  display: grid;
+  place-content: center;
+}
+
+.get_about {
+  width: 25%;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .get_about {
+    width: 15%;
+  }
+}
+
+.get_about > h1 {
+  font-size: 0.9rem;
+  letter-spacing: -0.45px;
+  color: #19191b;
+  margin-bottom: 10px;
+}
+
+.get_about > p {
+  font-size: 0.9rem;
+  line-height: 2.38;
+  letter-spacing: -0.45px;
+  color: #19191b;
+}
+
+.get_about > p > a {
+  text-decoration: none;
+}

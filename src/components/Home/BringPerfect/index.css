@@ -1,0 +1,134 @@
+.bring-perfect {
+  background-color: #413e65;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .bring-perfect {
+    background-color: #413e65;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.bring_perfect__body {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_perfect__body {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.bring_perfect__info {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_perfect__info {
+    text-align: left;
+    width: 40%;
+    order: 1;
+  }
+}
+
+.bring_perfect__info > h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: -1.69px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_perfect__info > h1 {
+    font-size: 3.375rem;
+  }
+}
+
+.bring_perfect__info > p {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.86;
+  letter-spacing: -0.59px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  .bring_perfect__info > p {
+    font-size: 1.181rem;
+  }
+}
+
+.bring_perfect__info > button {
+  color: white;
+  width: 120px;
+  height: 40px;
+
+  margin-top: 20px;
+  border-radius: 4.5px;
+  border: solid 0.9px #c31a12;
+  background-color: #f04037;
+}
+
+@media screen and (min-width: 768px) {
+  .bring_perfect__info > button {
+    width: 11rem;
+    height: 3.375rem;
+  }
+}
+
+.bring_perfect__list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bring_perfect_list-item {
+  padding: 20px;
+  border-radius: 9px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 15px;
+  max-width: 350px;
+}
+
+.left_info {
+  display: grid;
+  place-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(240, 64, 55, 0.1);
+  border-radius: 50%;
+}
+
+.right_info {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.right_info > h1 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.68px;
+  color: #19191b;
+}
+
+.right_info > p {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 1.75;
+  letter-spacing: -0.45px;
+  color: #696871;
+}
